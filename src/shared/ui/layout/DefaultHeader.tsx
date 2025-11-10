@@ -10,7 +10,7 @@ const NAV_ITEMS = [
   { href: "/contact", label: "Contact" },
 ];
 
-export default function DefaultHeader() {
+const DefaultHeader = () => {
   const pathname = usePathname();
   const isActive = (href: string) => pathname === href;
 
@@ -41,4 +41,6 @@ export default function DefaultHeader() {
       <div>RIGHT</div>
     </div>
   );
-}
+};
+
+export { DefaultHeader };
