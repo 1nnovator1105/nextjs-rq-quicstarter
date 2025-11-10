@@ -1,9 +1,5 @@
-import { MainLanding } from "@/features/home/ui";
+import { HomePage } from "@/pages/home/ui";
 
 export default function Home() {
-  return (
-    <div>
-      <MainLanding />
-    </div>
-  );
+  return <HomePage />;
 }

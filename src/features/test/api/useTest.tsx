@@ -1,4 +1,4 @@
-import { FeedDataListItemType } from "@/features/home/model/types";
+import { FeedDataListItemType } from "@/features/home/model";
 import { useQuery, UseQueryOptions } from "@tanstack/react-query";
 import axios, { AxiosError } from "axios";
 

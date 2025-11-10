@@ -1,3 +1,2 @@
-import { MainLanding } from "./MainLanding";
-
-export { MainLanding };
+export { MainLanding } from "./MainLanding";
+export { FeedDataListItem } from "./elements";

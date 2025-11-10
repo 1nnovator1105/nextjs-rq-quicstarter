@@ -1,4 +1,2 @@
-import { AppWrapper } from "./AppWrapper";
-import { DefaultHeader } from "./DefaultHeader";
-
-export { AppWrapper, DefaultHeader };
+export { default as AppWrapper } from "./AppWrapper";
+export { default as DefaultHeader } from "./DefaultHeader";
